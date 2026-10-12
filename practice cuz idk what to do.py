@@ -13,6 +13,7 @@ else:
     print("Enter your password to login:")
     entered_password = input("")
 
+while True:
     if entered_password == saved_password:
         print("Login successfully.")
 
